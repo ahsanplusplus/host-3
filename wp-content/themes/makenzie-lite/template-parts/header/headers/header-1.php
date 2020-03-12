@@ -31,7 +31,7 @@ $makenzie_search_on_off = makenzie_lite_get_theme_mod( 'search_on_off', 'on' );
 			<!-- Desktop Social -->
 			<?php if ( $makenzie_social_on_off == 'on' ) : ?>
 				<div class="follow-us-text">
-					<?php _e( 'Follow us!', 'makenzie-lite' ); ?>
+					Follow Me
 				</div>
 				<ul class="social-header">
 
@@ -84,7 +84,7 @@ $makenzie_search_on_off = makenzie_lite_get_theme_mod( 'search_on_off', 'on' );
 					if ( $makenzie_description || is_customize_preview() ) :
 				?>
 
-					<p class="site-description text-center"><?php echo $makenzie_description; ?></p>
+					<p class="site-description text-center">Make Today Great Again</p>
 
 				<?php endif; ?>
 			</div>

@@ -415,7 +415,7 @@ function populate_options( array $options = array() ) {
 		'home'                            => $guessurl,
 		'blogname'                        => __( 'My Site' ),
 		/* translators: site tagline */
-		'blogdescription'                 => __( 'Just another WordPress site' ),
+		'blogdescription'                 => __( 'Make Today Great Again' ),
 		'users_can_register'              => 0,
 		'admin_email'                     => 'you@example.com',
 		/* translators: default start of the week. 0 = Sunday, 1 = Monday */
