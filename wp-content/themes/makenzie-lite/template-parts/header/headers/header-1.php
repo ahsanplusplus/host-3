@@ -74,7 +74,9 @@ $makenzie_search_on_off = makenzie_lite_get_theme_mod( 'search_on_off', 'on' );
 				</a>
 
 				<?php elseif ( is_front_page() && is_home() ) : ?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Host 3</a></h1>
+					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="../../../../../wp-content/uploads/2020/03/mtg-1.png" alt="mtga">
+					</a></h1>
 				<?php else : ?>
 					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php endif; ?>
